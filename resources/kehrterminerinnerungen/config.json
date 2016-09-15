@@ -1,0 +1,93 @@
+{
+	"type": "Collection",
+	"properties": {
+		"vorname": {
+			"name": "vorname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "vorname",
+			"order": 0
+		},
+		"nachname": {
+			"name": "nachname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "nachname",
+			"order": 1
+		},
+		"ort": {
+			"name": "ort",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "ort",
+			"order": 2
+		},
+		"strasse": {
+			"name": "strasse",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "strasse",
+			"order": 3
+		},
+		"hausnummer": {
+			"name": "hausnummer",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "hausnummer",
+			"order": 4
+		},
+		"telefon": {
+			"name": "telefon",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "telefon",
+			"order": 5
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "email",
+			"order": 6
+		},
+		"erinnerungPerEmail": {
+			"name": "erinnerungPerEmail",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "erinnerungPerEmail",
+			"order": 7
+		},
+		"erinnerungPerSms": {
+			"name": "erinnerungPerSms",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "erinnerungPerSms",
+			"order": 8
+		},
+		"zeitpunktTage": {
+			"name": "zeitpunktTage",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "zeitpunktTage",
+			"order": 9
+		},
+		"kehrplan": {
+			"name": "kehrplan",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "kehrplan",
+			"order": 10
+		}
+	}
+}

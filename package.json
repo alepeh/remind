@@ -1,0 +1,19 @@
+{
+  "name": "remind",
+  "version": "0.0.1",
+  "author": "Alexander Pehm",
+  "license": "Apache-2.0",
+  "description": "A very basic app that lets customers register for reminders about scheduled appointments. Backed by react and deployd",
+  "repository": {
+    "url": "git://github.com/alepeh/remind.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "main": "index",
+  "dependencies": {
+    "deployd":"^0.8.9",
+    "dpd-actions": "^0.0.4",
+    "dpd-jobs": "^0.14.0"
+    }
+}

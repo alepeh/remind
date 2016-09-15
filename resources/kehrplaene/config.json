@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"ort": {
+			"name": "ort",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "ort",
+			"order": 1
+		},
+		"strasse": {
+			"name": "strasse",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "strasse",
+			"order": 2
+		},
+		"hausnummer": {
+			"name": "hausnummer",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hausnummer",
+			"order": 3
+		},
+		"hausnummerVon": {
+			"name": "hausnummerVon",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hausnummerVon",
+			"order": 4
+		},
+		"hausnummerBis": {
+			"name": "hausnummerBis",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hausnummerBis",
+			"order": 5
+		},
+		"kehrtermine": {
+			"name": "kehrtermine",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "kehrtermine",
+			"order": 6
+		}
+	}
+}

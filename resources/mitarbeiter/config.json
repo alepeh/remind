@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"telefon": {
+			"name": "telefon",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "telefon",
+			"order": 1
+		},
+		"orte": {
+			"name": "orte",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "orte",
+			"order": 2
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"plz": {
+			"name": "plz",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "plz",
+			"order": 1
+		},
+		"gemeindeamt": {
+			"name": "gemeindeamt",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "gemeindeamt",
+			"order": 2
+		}
+	}
+}
